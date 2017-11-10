@@ -1,0 +1,33 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    float:left;
+}
+
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.aNewGif{
+    float:left;
+    width: 220px;
+}
+
+img{
+    float: none;
+}
+
+#rating{
+    float: none;
+    text-align: center;
+}
+
