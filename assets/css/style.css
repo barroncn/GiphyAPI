@@ -1,14 +1,15 @@
 body{
     font-family: 'Arimo', sans-serif;
-    
+    background-color: white;
 }
 
-h2{
+h1{
     text-align: center;
 }
 
 p{
-    float:left;
+    text-align:center;
+    font-size: 18px;
 }
 
 .clearfix::after {
@@ -20,6 +21,7 @@ p{
 .aNewGif{
     float:left;
     width: 220px;
+    height: 375px;
 }
 
 img{
@@ -31,3 +33,36 @@ img{
     text-align: center;
 }
 
+button:hover{
+    background-color: #037e7d;
+    border-color: #eee;
+}
+
+button{
+    border: 2px solid black;
+    padding: 8px;
+    margin: 5px;
+    background-color: #189695;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+#submit:hover{
+    background-color: darkgray;
+}
+
+#submit{
+    background-color: #eee;
+    border: 2px solid teal;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#newActor{
+    border: 2px solid #eee;
+}
+
+#theButtons{
+    text-align: center;
+}
