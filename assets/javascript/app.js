@@ -41,7 +41,7 @@ $( document ).ready(function() {
         $("#theGifs").empty();
         
         var theActor = $(this).text();
-        var queryURL = ("///api.giphy.com/v1/gifs/search?api_key=SZTMpT0w5toNd0bhMaCH7PtiSNaDKlu1&limit=10&q=" + theActor);
+        var queryURL = encodeURI("///api.giphy.com/v1/gifs/search?api_key=SZTMpT0w5toNd0bhMaCH7PtiSNaDKlu1&limit=10&q=" + theActor);
         
         $.ajax({
             url: queryURL,
