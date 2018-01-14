@@ -1,4 +1,4 @@
-Celebrety Giphy API APP
+# Celebrety Giphy API APP
 
 [Check it out here!](https://barroncn.github.io/GiphyAPI/)
 
